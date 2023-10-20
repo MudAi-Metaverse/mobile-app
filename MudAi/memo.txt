@@ -1,0 +1,7 @@
+nad trust wallet address = 0x440D894FBcd91C6993377b6d238E0e7597eca672
+
+
+## target contracts formal name
+MudAi’s Demo Launch OAT = 0x7d394848630ee6cb2a478a8617211a5fd9243c68
+MudAiSBT  = 0xc0a149ceef739224bc595c5e67f2f60eafe00c2c
+MudAiToken = 0x894f1CB077f50a549D4D3425Fe0a583C03B7ffeC

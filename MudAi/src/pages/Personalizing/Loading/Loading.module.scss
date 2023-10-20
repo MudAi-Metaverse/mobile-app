@@ -1,0 +1,96 @@
+@use "css/base/variable/mixin" as *;
+
+// https://stackoverflow.com/questions/46999865/how-can-i-create-a-dashed-border-with-gradient
+
+$COUNT: 16;
+$SIZE: 375px;
+$STEP: ($SIZE / $COUNT);
+$SPEED: 12s;
+$COLOR: #000;
+
+.container {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 100vw;
+  // height: 100vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // background-color: #000;
+}
+
+.comp {
+  position: relative;
+  display: block;
+  width: $SIZE;
+  height: $SIZE;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateY(45deg) rotateX(45deg);
+}
+
+.circleWrap {
+  position: absolute;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  linear-easing-function: linear;
+}
+
+@for $n from 0 through $COUNT {
+  $size: $SIZE - ($n * $STEP);
+  $offset: ($STEP * $n) / 2;
+  $border: 2px;
+
+  .circleWrap:nth-child(#{$n}) {
+    left: $offset;
+    top: $offset;
+    width: $size;
+    height: $size;
+    animation-duration: ($SPEED / $n);
+
+    @if $n % 2 == 0 {
+      .circle {
+        border: 2px dashed $COLOR;
+      }
+    }
+
+    .stopAnim & {
+      animation-iteration-count: $n;
+    }
+  }
+}
+
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 50%;
+
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  background: linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(
+        259.45deg,
+        #57e4ff -4.54%,
+        #8b95f2 26.9%,
+        #8b72ee 49.6%,
+        #8556ea 68.49%,
+        #4138e5 116.24%
+      )
+      border-box;
+}
+
+.circleWrap:last-child {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg);
+  }
+}

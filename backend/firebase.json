@@ -1,0 +1,50 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 9099,
+      "host": "192.168.10.6"
+    },
+    "functions": {
+      "port": 5001,
+      "host": "192.168.10.6"
+    },
+    "firestore": {
+      "port": 8080,
+      "host": "192.168.10.6"
+    },
+    "database": {
+      "port": 9000,
+      "host": "192.168.10.6"
+    },
+    "storage": {
+      "port": 9199,
+      "host": "192.168.10.6"
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

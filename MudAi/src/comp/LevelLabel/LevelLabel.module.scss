@@ -1,0 +1,26 @@
+@use "css/base/variable/mixin" as *;
+
+.comp {
+  display: flex;
+
+  padding: 8px;
+  background: #ffffff;
+  box-shadow: 5px 6px 24px rgba(126, 132, 161, 0.1);
+  border-radius: 8px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  background: linear-gradient(
+    264.93deg,
+    #38dcfc -8.23%,
+    #9f72ee 33.86%,
+    #a956ea 53.75%,
+    #9c4ee9 72.09%,
+    #4138e5 114.85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

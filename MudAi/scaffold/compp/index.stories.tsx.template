@@ -1,0 +1,16 @@
+import React from "react";
+import { Presenter } from "./index";
+
+export default {
+  title: "{{{NAME}}}",
+  component: Presenter,
+  parameters: { docs: { description: { component: "" } } },
+};
+const Template = (args) => {
+  return <Presenter {...args} />;
+};
+
+export const Main = (args) => {
+  return <Template {...args} />;
+};
+Main.args = { label: "name" };

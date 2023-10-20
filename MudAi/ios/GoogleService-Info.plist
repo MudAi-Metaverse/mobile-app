@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>197467768687-f27hj7pn57teehiqcsj9rlpdfhbpvu2b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.197467768687-f27hj7pn57teehiqcsj9rlpdfhbpvu2b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBc1AhNybh3ll-0QhCI6RXGSCojLOGU-kw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>197467768687</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mudai</string>
+	<key>PROJECT_ID</key>
+	<string>mudai-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mudai-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:197467768687:ios:a439863caf90f266c68a9a</string>
+	<key>DATABASE_URL</key>
+	<string>https://mudai-dev-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

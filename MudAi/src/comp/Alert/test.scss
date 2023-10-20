@@ -1,0 +1,61 @@
+
+comp : {
+ display: "flex",
+  alignItems: "center",
+  padding: 12,
+  gap: 22,
+  background: "#ffffff",
+  boxShadow: "0 15 45 rgba(108, 95, 188, 0.3)",
+  borderRadius: 8,
+},
+
+imgWrap : {
+ flexShrink: 0,
+  position: "relative",
+  width: 46,
+  height: 46,
+},
+
+img : {
+  display: "block",
+  width: "100%",
+  height: "100%",
+  objectFit: "cover",
+},
+
+badge : {
+  position: "absolute",
+  left: 37,
+  top: 0,
+},
+
+polygonWrap : {
+  position: "relative",
+  $width: 18,
+  width: "$width",
+  height: "$width",
+},
+
+img : {
+    borderRadius: 16,
+
+},
+
+caption : {
+   marginBottom: 2,
+  color: "#323142",
+},
+
+// text : {
+//   background: linear-gradient(
+//     264.93deg,
+//     #38dcfc -8.23%,
+//     #9f72ee 33.86%,
+//     #a956ea 53.75%,
+//     #9c4ee9 72.09%,
+//     #4138e5 114.85%
+//   );
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   word-break: break-all;
+// },

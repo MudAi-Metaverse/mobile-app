@@ -1,0 +1,15 @@
+import React, {useState, useEffect} from 'react';
+import { Center, HStack, Text, Box, VStack, Button, Pressable } from "native-base";
+
+type Props = {}
+
+const {{{NAME}}} = (props: Props) => {
+
+  return(
+<Box>
+
+    </Box>
+  )
+}
+
+export default {{{NAME}}};

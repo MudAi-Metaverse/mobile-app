@@ -1,0 +1,14 @@
+@use "css/base/variable/mixin" as *;
+
+.wrap {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.comp {
+  background: linear-gradient(
+    217.32deg,
+    #2a283a -0.01%,
+    rgba(22, 20, 31, 0.47) 100%
+  );
+}

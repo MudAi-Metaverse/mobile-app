@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-video-cache/android/build.gradle b/node_modules/react-native-video-cache/android/build.gradle
+index 8c6410f..b2503ee 100644
+--- a/node_modules/react-native-video-cache/android/build.gradle
++++ b/node_modules/react-native-video-cache/android/build.gradle
+@@ -118,7 +118,8 @@ afterEvaluate { project ->
+     }
+ 
+     task androidJavadocJar(type: Jar, dependsOn: androidJavadoc) {
+-        classifier = 'javadoc'
++        // classifier = 'javadoc'
++        archiveClassifier = 'javadoc'
+         from androidJavadoc.destinationDir
+     }
+ 

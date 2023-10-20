@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "197467768687",
+    "firebase_url": "https://mudai-dev-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mudai-dev",
+    "storage_bucket": "mudai-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197467768687:android:95bae8d2b2695d81c68a9a",
+        "android_client_info": {
+          "package_name": "com.mudai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197467768687-olrvnr4cnr1dd62mt92g7plu6em86al5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLjnoTajx4uo3YRUe9aTb5MN5IDZltav8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197467768687-olrvnr4cnr1dd62mt92g7plu6em86al5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "197467768687-f27hj7pn57teehiqcsj9rlpdfhbpvu2b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mudai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

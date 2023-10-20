@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "@/*": ["./src/*"],
+      "public/*": ["./public/*"]
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

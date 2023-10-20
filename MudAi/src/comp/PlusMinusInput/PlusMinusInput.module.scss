@@ -1,0 +1,49 @@
+.comp {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  border-radius: 60px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #141414;
+  padding: 4px 16px;
+}
+
+.inputWrap {
+  flex: 1;
+}
+
+.amount[type] {
+  width: 100%;
+  font-family: 'Epilogue';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #141414;
+  text-align: center;
+  border: none;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance: textfield !important;
+  }
+}
+
+.btn {
+  $width: 16px;
+  width: $width;
+  height: $width;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  line-height: 0;
+
+  svg {
+    width: 16px;
+  }
+}

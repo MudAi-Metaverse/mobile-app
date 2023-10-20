@@ -1,0 +1,6 @@
+import React, { useState, useEffect } from 'react';import { Icon } from 'native-base';
+import {Svg, G, Path, Defs, ClipPath } from "react-native-svg";
+
+const {{{NAME}}} = (props) => {return ();};
+
+export default {{{NAME}}};
